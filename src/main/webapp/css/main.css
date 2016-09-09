@@ -1,0 +1,195 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Exo 2', sans-serif;   
+    padding-top: 50px;
+}
+/*@font-face{
+    font-family:liketahoma2;
+    src:url(font/liketohoma2.woff2);
+}*/
+
+@font-face{
+    font-family:cwTeXYen-zhonly;
+    src:url(../font/cwTeXYen-zhonly.ttf);
+}
+@font-face{
+    font-family:haii;
+    src:url(../font/haii.ttf);  
+    }
+.blockMain{
+    height: 550px;
+}
+#title{
+    /*position:absolute;*/
+    font: bold  100px cwTeXYen-zhonly,sans-serif; 
+   /*  font-family: 'cwTeXYen', sans-serif;
+    font-size: 100px; */
+    color:white;
+    /*border: solid 1px ;*/
+    text-align: center;
+    letter-spacing:0.19em;
+    text-shadow: 3px 3px 5px black;
+}
+#title3{
+    /*position:absolute;*/
+    /*font: bold  100px cwTeXYen-zhonly,Tahoma;*/
+    font-size: 100px;
+    color:white;
+    /*border: solid 1px ;*/
+    /*text-align: center;*/
+    margin-left: 480px;
+    margin-bottom: 60px;
+    letter-spacing:0.19em;
+    text-shadow: 3px 3px 5px black;
+}
+#myMovie{
+    position:fixed;
+    width:auto;
+    height:auto;
+    top:50%;
+    left:50%;
+    min-height:100%;
+    min-width:100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+}
+#search{
+    position:absolute;
+    top:210px;
+    left:490px;
+    z-index: 100;
+}
+#stray{
+    position:absolute;
+    top:130px;
+    left:590px;
+}
+#item{
+    position:absolute;
+    top:130px;
+    left:720px;
+}
+#lifepost{
+    position:absolute;
+    top:210px;
+    left:820px;
+    z-index: 100;
+}
+#cathead{
+    padding-top: 20px;
+    border: solid 3px;
+    border-radius:50%;
+    position:absolute;
+    top:280px;
+    left:550px;
+}
+#subTitle{
+    /*position:relative;*/
+    font-size: 19px;
+    color:white;
+    /*margin-top:100px;*/
+    text-align: center;
+    /*top:500px;
+    left:520px;*/
+    letter-spacing:0.19em;
+}
+/* #board{
+   width:180px;
+   background:#555;
+   padding:20px;
+   position:absolute;
+   left:1100px;
+   top:70px;
+} */
+#login{
+    
+     position:absolute;
+     left:1250px;
+     top:20px;
+     padding-bottom:10px;
+}
+#talkbubble{
+     position:relative;
+  /* transform:rotate(180deg);*/
+     left:1230px;
+     top:80px;
+     width:120px;
+     height:80px;
+     border:solid 1px ;
+}
+#talkMSG{
+     position:absolute;
+     top:1px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+#bs-example-navbar-collapse-1{
+    width: 1300px;
+    padding-left: 450px;
+}
+li{
+    width: 85px;
+}
+a{
+    text-align: center;
+    /*font-size: 15px;*/
+}
+
+.navbar .nav > li > a {
+    /*color: white;*/
+}
+.navbar-right .dropdown-toggle{
+  padding-top: 10px;
+  
+}
+.brand > #login3 {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    background:transparent url('../images/login3.png') center top no-repeat;
+    background-size: 100% auto;
+}
+.brand:hover > #login3 {
+    background-image: url('../images/login1.png');
+    background-size: 100% auto;
+}
+/*carousel*/
+ #carousel-example-generic{
+        width: 300px;
+        height: 250px;
+        margin: 100px auto;
+        margin-bottom: 30px;
+
+}
+.carousel-inner{
+    width: 300px;
+    height: 250px;
+}
+.image{
+    
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.item{
+    width: 300px;
+    height: 250px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+.carousel-indicators li{
+    background: url(../images/pawprint_SW.png);
+    background-size: cover;
+    padding: 8px;
+
+}
+.carousel-indicators .active {
+    background: url(../images/pawprint_SG.png);
+    background-size: cover;
+    padding: 8px;
+}

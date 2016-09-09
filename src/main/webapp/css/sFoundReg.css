@@ -1,0 +1,69 @@
+#box{
+	border: solid 1px;
+	padding-left: 0px;	
+	width: 850px;
+	margin: 0 auto;
+    
+}
+#innerBoxLeft{
+	border: solid 1px red;
+	width: 400px;
+	float: left;
+}
+#innerBoxRight{
+	border: solid 1px blue;
+	width: 400px;
+	float: left;
+}
+#inner3{
+    border:solid 1px green;
+}
+.innerBox{
+    padding-left:10px;
+}
+#upload{
+	border: solid 1px red;
+	width: 130px;
+	padding-left: 50px;
+	opacity: 0.1;
+	position: absolute;
+	float: left;
+
+}
+#submit{
+	border: solid 1px red;
+	
+}
+#innerDiv{
+	border: solid 1px blue;
+	width: 180px;
+	position: relative;
+	float: left;
+}
+a{
+	background-color: black;
+	color: white;
+}
+#map{
+    width:300px;
+    height:500px;
+    border:solid 1px yellow;
+    margin:10px auto;
+    
+}
+#location{
+    margin:0 auto;
+    width:10px;
+}
+.inputLeft{
+	border-color: #2ad1bb;
+	border-radius: 0 10px 0 0;
+	width: 300px;
+	height: 30px;
+}
+textarea{
+	border-color: #2ad1bb;	
+	border-radius: 0 10px 0 0;
+	width: 300px;
+	height: 100px;
+}

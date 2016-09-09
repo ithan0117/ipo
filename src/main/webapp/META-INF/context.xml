@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?> 
+<Context displayName="JSP Servlet Example" docBase="example" path="/example" reloadable="true">
+  <!--                  SQLServer                  
+  <Resource name="JNDI的識別名稱" type="javax.sql.DataSource"
+      username="你的資料庫帳號" password="對應的資料庫密碼"
+      driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+      url="jdbc:sqlserver://主機的IP:1433;DatabaseName=資料庫的名稱"
+      maxActive="8"
+      maxIdle="4"
+      maxWait="5000"
+  />   
+  -->
+  <!--                     MySQL                   -->
+  <Resource name="jdbc/ipo" type="javax.sql.DataSource"
+      username="admin" password="password"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://192.168.11.24:3306/ipo"
+      connectionProperties="useSSL=true;useUnicode=yes;characterEncoding=utf8;"
+      maxActive="8"
+      maxIdle="4"
+      maxWait="5000"
+  />   
+
+</Context>

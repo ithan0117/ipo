@@ -1,0 +1,160 @@
+/*.row>div{
+	border: solid 1px;
+	height: 550px;
+	margin-top: 51px;
+	
+		}*/
+.imSpace{
+	width: 80px;
+	cursor: default;
+}
+body{
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Exo 2', sans-serif;	
+}
+
+.col-md-8{
+	border: solid 1px;
+	height: 550px;
+	margin-top: 51px;
+}
+
+.col-md-6{
+	/*border: solid 1px red;*/
+	height: 549px;
+	margin-left: 0;
+}
+#map{
+    width:400px;
+    height:280px;
+    border:solid 1px yellow;
+    margin:20px auto;
+    
+}
+#location{
+    margin:0 auto;
+    width:10px;
+}
+#frameDiv{
+	width:300px;
+	height: 200px;
+	/*margin:5px auto;*/
+	margin-top:5px ;
+	margin-left: 60px;
+	/*border:solid 2px red;*/
+	position: absolute;
+}
+#photo{
+	width:280px;
+	height: 180px; 
+	/*border:solid 2px #ccc;*/
+	/*box-shadow: 0px 0px 3px 1px white inset;
+	background-color: #ece4d9;*/
+	margin-left: 80px;
+	margin-top:20px;
+	/*border:solid 1px green;*/
+
+}
+#image{
+	width:260px; 
+	height:160px;
+	position: absolute;
+	/*border:solid 2px yellow;*/
+	margin:0 auto;
+}
+#frame{
+	/*border:solid 2px pink;*/
+	width:300px; 
+	height:200px;	
+	position: absolute;
+}
+#defaultMSG{
+	position: absolute;
+	color: white;
+	color: #CCC;
+	/*border: solid 1px ;*/
+	left: 140px;
+	top: 120px;
+	font-size: 40px;
+}
+#innerBoxLeft{
+	padding-left: 60px;
+	padding-top: 10px;
+}
+.inputLeft{
+	
+	border: solid 3px #2ad1bb;
+	border-radius: 0 10px 0 0;
+	width: 300px;
+	height: 35px;
+	background-color: rgba(0,0,0,0);
+	color:white;
+	outline: none;
+
+}
+textarea{
+	border: solid 3px #2ad1bb;
+	border-radius: 0 10px 0 0;
+	width: 300px;
+	height: 150px;
+	background-color: rgba(0,0,0,0);
+	color:white;
+	outline: none;
+}
+#upload{
+	border: solid 1px red;
+	width: 130px;
+	padding-left: 50px;
+	opacity: 0.1;
+	position: absolute;
+	float: left;
+
+}
+#submit{
+	/*border: solid 1px red;*/
+	border: none;
+	box-shadow: 0px 0px 1px 1px white inset ;
+	border-radius: 0 10px 0 0;
+	background-color: #2a2a2a;
+	color: white;
+	font-size: 18px ;
+    margin-top: 5px;
+    margin-left: 70px;
+    width: 55px;
+    height: 30px;
+}
+#innerDiv{
+	/*border: solid 1px blue;*/
+	width: 180px;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin-top: 5px;
+
+}
+.contanier{
+	background-image: url(../images/wood.jpg);
+	background-size: cover;
+}
+.col-md-8{
+	background-color: rgba(0,0,0,0.6);
+	
+	}
+h4{
+	color: white;
+}
+.footer{
+	color: white;
+}
+p{
+	text-align: center;
+}
+#fakeUpload{
+	color: white;
+	border: solid 1px white;
+	border-radius: 5px;
+	width:60px; 
+	text-decoration: none;
+	font-size: 20px;
+	padding: 3px;
+}
